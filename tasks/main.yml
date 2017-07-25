@@ -1,7 +1,7 @@
 ---
 # tasks file for apigee-opdk-yum-repository/
 
-- name: Enable Yum repositories
+- name: Configure Yum repositories
   yum_repository:
      enabled: "{{ yum_repositories_enabled }}"
      state: present
