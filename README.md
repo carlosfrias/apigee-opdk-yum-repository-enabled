@@ -1,7 +1,7 @@
-Role Name
+Apigee OPDK Yum Repository Enabled
 =========
 
-A brief description of the role goes here.
+This role will enable the list of repositories provided.
 
 Requirements
 ------------
@@ -30,7 +30,7 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
-BSD
+Apache 2.0
 
 Author Information
 ------------------
