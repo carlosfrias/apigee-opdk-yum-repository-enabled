@@ -9,5 +9,6 @@
      description: "{{ item.name }}"
      baseurl: "{{ item.baseurl }}"
      file: '{{ item.yum_repo_filename }}'
+     gpgcheck: "{{ item.gpgcheck }}"
   with_items: "{{ yum_repositories }}"
   when: yum_repositories is defined
